@@ -12,17 +12,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 WebApplication app = builder.Build();
 
-app.MapGet("/", () => {
-    Test test = new Test();
-    return test.sayHello();
-});
+
+app.MapGet("/", () => "Hello World!");
 
 app.Run();
 
-public class Test
-{
-    public string sayHello()
-    {
-        return "Hello World! from Test class";
-    }
-}
