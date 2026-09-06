@@ -1,18 +1,15 @@
-namespace Polymorphism
+namespace Abstraction
 {
-    class Animal
+    abstract class Animal
     {
-      public virtual void animalSound()
-        {
-            Console.WriteLine("Animal makes a sound");
-        }
+        public abstract void animalSound();
     }
 
     class Cat:Animal
     {
-     public override void animalSound()
+        public override void animalSound()
         {
-            Console.WriteLine("Meow");
+            Console.WriteLine("Meow Meow");
         }
     }
 
@@ -28,10 +25,8 @@ namespace Polymorphism
     {
         static void Main()
         {
-            Animal animal = new Animal();
             Cat cat = new Cat();
             Dog dog = new Dog();
-            animal.animalSound();
             cat.animalSound();
             dog.animalSound();
         }

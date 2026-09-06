@@ -1,4 +1,4 @@
-namespace properties
+namespace Properties
 {
     class Person
     {

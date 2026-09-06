@@ -1,4 +1,4 @@
-namespace inheritence
+namespace Inheritence
 {
     class Vehicle
     {
