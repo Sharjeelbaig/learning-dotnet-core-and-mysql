@@ -12,7 +12,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 WebApplication app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => {
+    Test test = new Test();
+    return test.sayHello();
+});
 
 app.Run();
 
+public class Test
+{
+    public string sayHello()
+    {
+        return "Hello World! from Test class";
+    }
+}

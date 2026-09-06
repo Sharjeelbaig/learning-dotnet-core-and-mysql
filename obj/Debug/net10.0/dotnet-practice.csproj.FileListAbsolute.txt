@@ -36,3 +36,4 @@
 /Users/shazi/Practice/dotnet-practice/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/shazi/Practice/dotnet-practice/bin/Debug/net10.0/MySqlConnector.dll
 /Users/shazi/Practice/dotnet-practice/bin/Debug/net10.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/shazi/Practice/dotnet-practice/obj/Debug/net10.0/dotnet-practice.sourcelink.json
